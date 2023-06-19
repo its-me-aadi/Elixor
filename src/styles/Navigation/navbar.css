@@ -1,0 +1,123 @@
+.main-div-navbar{
+    background-color: transparent;
+    position: relative;
+    z-index: 1;
+    margin: 2rem 3.8rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo{
+    width: 9.5rem;
+    height: 1.5rem;
+}
+
+.nav-left{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+}
+
+.nav-links{
+    display: flex;
+    background-color: transparent;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: #888888;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 80px;
+    background-color: transparent;
+}
+
+.nav-links a:hover{
+  color: #fff;
+}
+
+.nav-links li{
+    list-style: none;
+    margin-right: 1.75rem;
+    background-color: transparent;
+}
+
+.nav-links-drawer{
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.nav-links-drawer a{
+    text-decoration: none;
+    color: #888888;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 3rem;
+    background-color: #fff;
+}
+
+.nav-links-drawer a:hover{
+    color: #000;
+  }
+
+.nav-links-drawer li{
+    background-color: #fff;
+    list-style: none;
+}
+
+.btn-nav{
+    width: 8.125rem;
+    height: 3.5rem;
+    font-weight: 600;
+    font-size: 24px;
+    background: linear-gradient(100.51deg, #984ED6 0%, #370486 100%);
+    background-color: transparent;
+    border: 0;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    color: #fff
+}
+
+.nav-min{
+    height: 2rem;
+    background: transparent;
+    border: none;
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.nav-min span{
+    display: block;
+    width: 2rem;
+    height: 2.5px;
+    background: #fff;
+}
+
+@media (max-width: 768px) {
+
+    .nav-logo{
+        width: 7rem;
+    }
+
+    .nav-min{
+      display: flex;
+    }
+
+    .nav-links{
+        display: none;
+    }
+
+    .nav-lg{
+        display: none;
+    }
+  }
+
+

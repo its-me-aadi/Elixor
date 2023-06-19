@@ -1,0 +1,52 @@
+.pg1-main-div{
+    display: flex;
+    justify-content: center;
+}
+
+.page1-img{
+    position: absolute;
+    width: 74.8rem;
+    height: 45.4rem;  
+    top: 14px;
+    box-shadow: inset 0px 0px 150px 100px #0B0514;
+}
+
+.pg1-text{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 38rem;
+    background-color: transparent;
+}
+
+.pg1-l1{
+    color: #fff;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 70px;
+    background-color: transparent;
+}
+
+.pg1-l2{
+    color: #fff;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 70px;
+    background-color: transparent;
+}
+
+.pg1-btn{
+    margin: 3.2rem 0;
+    width: 11rem;
+    height: 3.5rem;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+    background: linear-gradient(100.51deg, #984ED6 0%, #370486 100%);
+    cursor: pointer;
+    border: 0;
+    border-radius: 10px;
+}
